@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #9fe3d8;
+}
+
+/*  */
+.contain{
+    display: flex;
+    height: 500px;
+    width: 400px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #d0f5ef;
+}
+
+/*  */
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    background-color: #d0f5ef;
+}
+
+/* Giant Sign In sign */
+.form h2{
+    font-size: 3rem;
+    font-family: Impact;
+    margin: 40px;
+    background-color: #d0f5ef;
+
+
+}
+
+/* input boxes */
+.input{
+    padding: 12px;
+    width: 65%;
+    margin: 15px;
+    margin-top: 40px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 20px;
+    background-color: white;
+
+}
+
+/* submit inputs button */
+#submit{
+    padding: 12px;
+    width: 65%;
+    margin-top: 40px;
+    border-radius: 20px;
+    background-color: #4ad9c2;
+    
+
+
+}
